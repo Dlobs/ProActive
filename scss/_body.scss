@@ -1,0 +1,42 @@
+main{
+
+	.body{
+		display:grid;
+		grid-template-columns:8fr, 4fr;
+		grid-template-rows:3;
+	}
+
+
+
+.mockup img{
+margin-top:7rem;
+	display:grid;
+	height:90vh;
+	
+}
+ .hero-image{
+ 	display:grid;
+	 background-image: url(../img/hero.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text{
+	display:grid;
+	grid-column:2;
+	grid-row:1;
+	padding:5rem;
+	color:black;
+
+
+}
+.text{
+
+}
+}
+
+
+
