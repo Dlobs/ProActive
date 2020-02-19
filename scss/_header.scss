@@ -1,5 +1,5 @@
 header{
-	background-color:#000033;
+	background-color:#00394d;
 		scroll-behavior:smooth;
 	grid-row:1;
 	grid-column:1 / span 6;
@@ -8,16 +8,21 @@ header{
 	text-align:center;
 	justify-self:center;
 
+.menu{
+	text-decoration:none;
+}
 		ul{
 
 	// display:grid;
+	color:white;
+	underline:none;
+	text-underline-position: none;
 	font-family: 'Oswald', sans-serif;
 	text-align:center;
 	justify-content: center;
 	grid-row:2;
 	color:white;
 	text-decoration: none;
-		font-family: 'Supermercado One', cursive,;
 		grid-column:1 / span 6;
 		padding:0;
 		margin:0;
@@ -26,6 +31,8 @@ header{
 		grid-template-columns:repeat(5, 1fr);
 
 			li{
+					text-underline-position: none;
+underline:none;
 				color:white;
     margin-top: 0;
     text-align: center;

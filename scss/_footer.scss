@@ -1,4 +1,48 @@
-footer{
-	height:30vh;
-	background-color:green;
+footer .contact1 {
+	height:20vh;
+	background-color: #339933;
+	display:grid;
+	grid-template-rows:1fr,1fr,1fr,1fr;
+	grid-template-columns:1fr, 1fr, 1fr, 1fr;
+	img{
+	size:1rem;
+	text-align:center;
 }
+	.contact1{
+
+		text-align:center;
+		display:grid;
+		grid-row:1;
+	}
+	.fb img{
+margin-left:2rem;
+margin-top:2rem;
+			text-align:center;
+	justify-content: center;
+		display:grid;
+		grid-row:2;
+		grid-column:2;
+
+	}
+.ig img{
+margin-left:2rem;
+margin-top:2rem;
+	display:grid;
+	grid-column:2;
+		text-align:center;
+	justify-content: center;
+
+}
+p{
+	margin-top:-4rem;
+	display:grid;
+	grid-column:2;
+	color:white;
+	text-align:center;
+	justify-content: center;
+		font-family: 'Oswald', sans-serif;
+		font-weight:lighter;
+}
+}
+
+
