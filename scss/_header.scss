@@ -4,7 +4,7 @@ header{
 	grid-row:1;
 	grid-column:1 / span 6;
 	display:grid;
-	padding:1rem;
+	padding:2rem;
 	text-align:center;
 	justify-self:center;
 
@@ -15,7 +15,7 @@ header{
 	text-align:center;
 	justify-content: center;
 	grid-row:2;
-	color:blue;
+	color:white;
 	text-decoration: none;
 		font-family: 'Supermercado One', cursive,;
 		grid-column:1 / span 6;
@@ -26,11 +26,11 @@ header{
 		grid-template-columns:repeat(5, 1fr);
 
 			li{
+				color:white;
     margin-top: 0;
     text-align: center;
     justify-content: center;
     text-decoration: none;
-    font-color: black;
     align-items: center;
     display: grid;
 font-family: 'Oswald', sans-serif;

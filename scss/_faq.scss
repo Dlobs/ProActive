@@ -1,12 +1,14 @@
-.call .action{
+.faq .faq1{
 	height:70vh;
 	background-color:#000033;
 	display:grid;
 	grid-template-rows:1fr,1fr,1fr,1fr;
 	grid-template-columns:1;
 h1{
+	justify-self:center;
 	margin:5rem;
 grid-row:1;
+grid-column:1/ span 2;
 	font-family: 'Oswald', sans-serif;
 	text-align:center;
 	color:white;
